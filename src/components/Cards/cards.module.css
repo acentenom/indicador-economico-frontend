@@ -1,0 +1,30 @@
+
+.nameCards {
+    font-family: "Segoe Print";
+    color: black;
+    box-shadow: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.containerCard {
+    display: flex;
+    grid-row: 45px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+    width: 80rem;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+      max-width: 750px;
+    }
+  }
