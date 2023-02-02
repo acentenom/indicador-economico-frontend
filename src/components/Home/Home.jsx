@@ -9,7 +9,7 @@ const Home = () => {
 
   useEffect(() => {
     const indicador = async () => {
-      const getIndicadores = await fetch("http://localhost:3001/indicadores");
+      const getIndicadores = await fetch("https://indicador-economico-backend.up.railway.app/indicadores");
       const indicador = await getIndicadores.json();
       setIndicators(indicador);
     };
